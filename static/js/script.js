@@ -16,3 +16,8 @@ const backgroundImageUrls = [
   "",
   // Add more image URLs as needed
 ];
+
+function getRandomBackgroundImageUrl() {
+  const randomIndex = Math.floor(Math.random() * backgroundImageUrls.length);
+  return backgroundImageUrls[randomIndex];
+}
