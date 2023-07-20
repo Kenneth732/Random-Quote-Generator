@@ -80,3 +80,44 @@ updateQuote();
 //     quoteText.textContent = quote;
 //   });
 // }
+
+// // Event listener for the "New Quote" button
+// newQuoteBtn.addEventListener("click", updateQuote);
+
+// // Initial quote update on page load
+// updateQuote();
+
+
+// another
+// another
+// another
+
+// const quoteText = document.getElementById("quoteText");
+// const newQuoteBtn = document.getElementById("newQuoteBtn");
+
+// // Function to fetch a random quote from an API
+// async function fetchRandomQuote() {
+//   try {
+//     const response = await fetch("https://api.quotable.io/random");
+//     if (!response.ok) {
+//       throw new Error("Network response was not ok");
+//     }
+//     const data = await response.json();
+//     return data.content;
+//   } catch (error) {
+//     console.error("Error fetching quote:", error);
+//     return "Error: Failed to fetch quote";
+//   }
+// }
+
+// // Function to update the displayed quote
+// async function updateQuote() {
+//   const quote = await fetchRandomQuote();
+//   quoteText.textContent = quote;
+// }
+
+// // Event listener for the "New Quote" button
+// newQuoteBtn.addEventListener("click", updateQuote);
+
+// // Initial quote update on page load
+// updateQuote();
