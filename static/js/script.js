@@ -37,3 +37,8 @@ function fetchRandomQuote() {
       return "Error: Failed to fetch quote";
     });
 }
+
+// Function to update the displayed quote and background image
+function updateQuote() {
+
+}
