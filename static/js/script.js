@@ -21,3 +21,8 @@ function getRandomBackgroundImageUrl() {
   const randomIndex = Math.floor(Math.random() * backgroundImageUrls.length);
   return backgroundImageUrls[randomIndex];
 }
+
+// Function to fetch a random quote from an API using Promises
+function fetchRandomQuote() {
+
+}
