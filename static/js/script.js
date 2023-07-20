@@ -40,5 +40,10 @@ function fetchRandomQuote() {
 
 // Function to update the displayed quote and background image
 function updateQuote() {
+  const backgroundImageUrl = getRandomBackgroundImageUrl();
+  document.body.style.backgroundImage = `url(${backgroundImageUrl})`;
 
+  fetchRandomQuote().then(quote => {
+    quoteText.textContent = quote;
+  });
 }
