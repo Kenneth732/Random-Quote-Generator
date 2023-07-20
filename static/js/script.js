@@ -53,3 +53,8 @@ newQuoteBtn.addEventListener("click", updateQuote);
 
 // Initial quote update on page load
 updateQuote();
+
+
+// const quoteText = document.getElementById("quoteText");
+// const newQuoteBtn = document.getElementById("newQuoteBtn");
+
