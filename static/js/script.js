@@ -47,3 +47,9 @@ function updateQuote() {
     quoteText.textContent = quote;
   });
 }
+
+// Event listener for the "New Quote" button
+newQuoteBtn.addEventListener("click", updateQuote);
+
+// Initial quote update on page load
+updateQuote();
