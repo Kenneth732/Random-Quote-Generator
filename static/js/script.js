@@ -24,5 +24,16 @@ function getRandomBackgroundImageUrl() {
 
 // Function to fetch a random quote from an API using Promises
 function fetchRandomQuote() {
-
+  return fetch("https://api.quotable.io/random")
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      return response.json();
+    })
+    .then(data => data.content)
+    .catch(error => {
+      console.error("Error fetching quote:", error);
+      return "Error: Failed to fetch quote";
+    });
 }
