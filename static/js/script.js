@@ -73,3 +73,10 @@ updateQuote();
 //       return "Error: Failed to fetch quote";
 //     });
 // }
+
+// // Function to update the displayed quote
+// function updateQuote() {
+//   fetchRandomQuote().then(quote => {
+//     quoteText.textContent = quote;
+//   });
+// }
